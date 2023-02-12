@@ -273,6 +273,13 @@
 		width: 100%;
 		height: auto;
 	}
+	.lm-banner {
+    	height: auto;
+	}
+	.lm-banner_item{
+		height: auto;
+		padding: 50px 0;
+	}
 }
 
 /***** Tamanho para smartphones na horizontal *****/
