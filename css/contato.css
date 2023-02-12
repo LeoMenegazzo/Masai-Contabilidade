@@ -1,0 +1,65 @@
+
+
+/* contato_01 */
+
+.lm-contato_01{
+	padding: 60px 0 10px;
+}
+
+.lm-contato_01 .lm-titulo_1 + p{
+	margin-bottom: 100px;
+}
+
+.lm-form{
+	flex-wrap: wrap;
+}
+.lm-form input,
+.lm-form textarea{
+	width: calc(100% - 36px);
+	border: 1px solid #9fa5a2;
+	padding: 15px 17px;
+}
+.lm-form .col-xl-4,
+.lm-form .col-xl-12{margin-bottom: 20px;}
+
+
+/* contato_01 */
+
+.lm-contato_01 .row > .col-xl-6:first-child > div{
+	padding: 20px 50px 60px 0;
+}
+.lm-contato_01{
+	overflow: hidden;
+}
+.lm-contato_01 .col-xl-6 > figure {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+.lm-contato_01 .col-xl-6{
+	position: relative;
+}
+.lm-contato_01 .col-xl-6 img{
+	display: block;
+}
+.lm-contato_01 textarea{
+	height: 100px;
+}
+.lm-contato_01 input,.lm-contato_01 textarea{
+	width: 100%;
+	padding: 18px;
+	margin-bottom: 17px;
+	border: 1px solid #989898;
+}
+.lm-contato_01 .lm-titulo_2{
+	max-width: 450px;
+	margin-bottom: 20px;
+	margin-top: 30px;
+}
+.lm-contato-lista li{
+	margin-bottom: 10px;
+}
+.lm-contato-lista li a span{
+	display: inline-block;
+	margin-right: 5px;
+}

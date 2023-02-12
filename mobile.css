@@ -1,0 +1,546 @@
+@media screen and (max-width: 999px){
+	.lm-header .lm-navegacao div:first-child{
+		display: none;
+	}
+	.lm-header .lm-logo img {
+		height: 60px;
+	}
+	.lm-navegacao{
+		width: 100%;
+	}
+	.lm-navegacao a{
+		display: block;
+		padding: 0!important;
+		margin-bottom: 10px;
+	}
+	.lm-header_fixo {
+		position: relative;
+		width: 100%;
+		left: auto;
+		top: auto;
+		z-index: 999;
+		box-shadow: none;
+		animation: none;
+	}
+	.lm-header_fixo + section{
+		margin: 0;
+	}
+	.lm-header.lm-header_fixo .lm-logo img {
+		height: 60px;
+	}
+	.lm-banner_item {
+		min-height: auto;
+	}
+	.lm-banner_item figure img{
+		height: 100%;
+	}
+	.lm-btn {
+		padding: 10px 25px;
+	}
+	.row > div{
+		margin-bottom: 30px;
+	}
+	.row > div .row > div,.row > div:last-child{
+		margin-bottom: 0!important;
+	}
+	section{
+		padding: 50px 0!important;
+	}
+	.lm-banner,.lm-banner_pagina{
+		padding: 0!important;
+	}
+	.lm-titulo_1:before {
+		font-size: 45px!important;
+	}
+	.lm-banner .owl-nav div {
+		color: #fff;
+		top: calc(90% - 21px);
+	}
+	.lm-servicos_02 .card-header h2 {
+		font-size: 20px;
+	}
+	.lm-servicos_02 .card-header h2 span {
+		height: 40px;
+		width: 40px;
+	}
+	.lm-servicos_02 .card-header h2 {
+		grid-template-columns: 40px 1fr;
+
+	}
+	.card-body {
+		padding-left: 60px;
+	}
+	.lm-servicos_01 p {
+		font-size: 18px;
+	}
+	.lm-servicos_02 .card-body p, .lm-servicos_02 .card-body ul li {
+		font-size: 18px;
+	}
+	.lm-servicos_02 .card-body ul {
+		margin-left: 0px;
+	}
+	.lm-contato_01 .row > .col-xl-6:first-child > div,
+	.lm-trabalhe-conosco_01 .row > .col-xl-6:first-child > div{
+		padding: 40px 0px 60px 0;
+	}
+	.lm-contato_01 .col-xl-6 > figure,
+	.lm-trabalhe-conosco_01 .col-xl-6 > figure {
+		position: relative;
+		left: auto;
+		top: auto;
+	}
+	.lm-contato_01 .col-xl-6 > figure img,
+	.lm-trabalhe-conosco_01  .col-xl-6 > figure img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+/***** Tamanho para smartphones na vertical *****/
+
+@media screen and (max-width: 499px){
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.lm-header .lm-navegacao div{
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	.lm-header .lm-navegacao div p{
+		border-right: 0;
+		margin-right: 0;
+		padding-right: 0;
+	}
+	.lm-banner_texto{
+		top: -100px;
+	}
+	.lm-breadcrumbs h1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	.lm-empresa_01 .col-xl-6:first-child div{
+		padding:0;
+	}
+	.lm-empresa_01 .col-xl-6 h3 span{
+		width: 100%;
+		font-size: 26px;
+	}
+	.lm-mvv_item{
+		flex-wrap: wrap;
+	}
+	.lm-empresa_01 .col-xl-6 > figure{
+		height: 300px;
+		position: initial;
+	}
+	.lm-banner_pagina + .lm-empresa_01 .col-xl-6 figure{
+		margin: 0 auto;
+	}
+	.lm-empresa_01 .col-xl-6 > figure{
+		right: 0;
+		left: 0;
+	}
+	.lm-mvv_item div{
+		width: 100%;
+		text-align: center;
+	}
+	.lm-mapa{
+		padding: 50px 0;
+	}
+	.lm-mapa figure > div.mapa-brasil{
+		margin-left: -303px;
+		height: 520px;
+		background-size: cover;
+	}
+	.lm-empresa_01 .col-xl-6:last-child:after{
+		display: none;
+	}
+	.lm-mvv{
+		margin-left: 0;
+		padding:20px;
+		margin-bottom: 50px;
+	}
+	.lm-empresa_01 .col-xl-6 h3{
+		flex-wrap: wrap;
+		transform: translateX(0);
+		opacity: 1;
+	}
+	.lm-02 .lm-titulo_1:after{
+		font-size: 58px;
+		position: initial;
+		top:5px;
+	}
+	/*lm-banner*/
+	.lm-banner_texto h2{
+		font-size: 33px;
+	}
+	/*lm-01*/
+	.lm-01 .lm-titulo_2{
+		font-size: 24px;
+		margin-bottom: 1rem;
+	}
+	/*lm-02*/
+	.lm-02 .col-xl-6 .lm-mvv_item img{
+		width: initial;
+	}
+	.lm-02 .lm-mvv{
+		margin-top: 0;
+		margin-left: 0;
+		padding: 30px 10px;
+	}
+	.lm-02 .col-xl-6:first-child div{
+		padding: 2rem 0;
+	}
+	.lm-02 .lm-titulo_1{
+		font-size: 30px;
+		padding-bottom: 0;
+	}
+	.lm-02 .col-xl-6 > figure{
+		position: initial;
+	}
+	.lm-02 .col-xl-6 figure img{
+		width: 100%;
+	}
+	/*lm-03*/
+	.lm-03 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-04*/
+	.lm-04 .owl-nav div{
+		top: 200px;
+	}
+	/*lm-05*/
+	.lm-05 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-footer*/
+	.lm-footer .col-xl-12{
+		margin-bottom: 2rem;
+	}
+	/*Empresa*/
+	[data-item="1"]{
+		top: 69px;
+		left: 2.2%;
+		width: 68.95%;
+	}
+	[data-item="2"]{
+		bottom: 108px;
+		right: 13.75%;
+		width: 27.318718381112985%;
+	}
+	[data-item="3"]{
+		bottom: 10px;
+		left: 42.75%;
+		width: 31.55%;
+	}
+	/*SERVICOS*/
+	.lm-servicos_01 .lm-titulo_2{
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+	/*blog*/
+	.lm-blog_01 .col-xl-9 span{
+		margin-top: 1rem;
+	}
+	/*contato*/
+	.lm-contato_01 .row > .col-xl-6:first-child > div{
+		padding: 0;
+	}
+	.lm-contato_01 .col-xl-6 figure{
+		position: initial;margin-top: 2rem;
+	}
+	.lm-contato_01 .col-xl-6 img{
+		width: 100%;
+	}
+	/*trabalhe conosco*/
+	.lm-trabalhe-conosco_01 .row > .col-xl-6:first-child > div{
+		padding: 2rem 0;
+	}
+	.lm-trabalhe-conosco_01 .col-xl-6 figure{
+		position: initial;
+	}
+	.lm-trabalhe-conosco_01 .col-xl-6 img{
+		width: 100%;
+	}
+	.lm-trabalhe-conosco_01 .lm-btn-curriculo{
+		width: 100%;
+	}
+	.lm-blog_item.row > div{
+		padding: 0;
+	}
+	.lm-banner_pagina + .lm-empresa_01 .col-xl-6 > figure img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+/***** Tamanho para smartphones na horizontal *****/
+
+@media screen and (max-width: 649px) and (min-width: 500px) {
+	.lm-mapa{
+		padding:0;
+	}
+	.lm-mapa figure > div.mapa-brasil{
+		margin-left: -125px;
+		height: 520px;
+		background-size: cover;
+	}
+	.lm-servicos_02 .lm-accordion_btn h4{
+		width: calc(100% - 65px);
+		font-size: 17px;
+	}
+	.lm-servicos_02 .lm-accordion_btn span{
+		margin-right: 10px;
+	}
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.lm-breadcrumbs h1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	.lm-02 .lm-titulo_1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	/*lm-banner*/
+	.lm-banner_texto h2{
+		font-size: 33px;
+	}
+	/*lm-01*/
+	.lm-01 .lm-titulo_2{
+		font-size: 24px;
+		margin-bottom: 1rem;
+	}
+	/*lm-02*/
+	.lm-02 .lm-titulo_1{
+		font-size: 30px;
+		padding-right: 155px;
+	}
+	.lm-02 .col-xl-6:first-child div{
+		padding: 2rem 0;
+	}
+	.lm-02 .col-xl-6 > figure{
+		position: initial;
+	}
+	.lm-02 .col-xl-6 figure img{
+		width: 100%;
+	}
+	/*lm-03*/
+	.lm-03 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-04*/
+	.lm-04 .owl-nav div{
+		top: 200px;
+	}
+	/*lm-05*/
+	.lm-05 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-footer*/
+	.lm-footer .col-xl-12{
+		margin-bottom: 2rem;
+	}
+	/*SERVICOS*/
+	.lm-servicos_02 .lm-acordeon_btn span{
+		width: 25px;
+		height: 25px;
+	}
+	.lm-servicos_02 .lm-acordeon_conteudo{
+		margin-left: 0;
+	}
+	.lm-servicos_02 .lm-acordeon_btn h4{
+		font-size: 14px;
+	}
+	.lm-servicos_02 .lm-acordeon_conteudo p, .lm-servicos_02 .lm-acordeon_conteudo ul li{
+		font-size: 15px;
+	}
+	.lm-servicos_01 .lm-titulo_2{
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+	.lm-blog_01 .col-xl-9 span{
+		margin-top: 1rem;
+	}
+	.lm-blog_item.row > div{
+		padding: 0;
+	}
+	.lm-banner_pagina + .lm-empresa_01 .col-xl-6 > figure img{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+}
+
+/***** Tamanho para tablets na vertical *****/
+
+@media screen and (max-width: 749px) and (min-width: 650px) {
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.lm-mapa{
+		padding:0;
+	}
+	.lm-mapa figure > div.mapa-brasil{
+		margin-left: 0;
+		height: 520px;
+		background-size: cover;
+	}
+
+	.lm-breadcrumbs h1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	.lm-02 .lm-titulo_1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	/*lm-banner*/
+	.lm-banner_texto h2{
+		font-size: 33px;
+	}
+	/*lm-01*/
+	.lm-01 .lm-titulo_2{
+		font-size: 24px;
+		margin-bottom: 1rem;
+	}
+	/*lm-02*/
+	.lm-02 .lm-titulo_1{
+		font-size: 30px;
+		padding-right: 160px;
+	}
+	.lm-02 .col-xl-6 > figure{
+		position: initial;
+	}
+	/*lm-03*/
+	.lm-03 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-04*/
+	.lm-04 .owl-nav div{
+		top: 200px;
+	}
+	/*lm-05*/
+	.lm-05 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-footer*/
+	.lm-footer .col-xl-12{
+		margin-bottom: 2rem;
+	}
+	.lm-footer .row div:first-child,.lm-footer .row div:last-child{
+		width: calc(50% - 20px);
+	}
+	/*SERVICOS*/
+	.lm-servicos_02 .lm-acordeon_btn span{
+		width: 25px;
+		height: 25px;
+	}
+	.lm-servicos_02 .lm-acordeon_conteudo{
+		margin-left: 0;
+	}
+	.lm-servicos_02 .lm-acordeon_btn h4{
+		font-size: 14px;
+	}
+	.lm-servicos_02 .lm-acordeon_conteudo p, .lm-servicos_02 .lm-acordeon_conteudo ul li{
+		font-size: 15px;
+	}
+	.lm-servicos_01 .lm-titulo_2{
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+	.lm-blog_01 .col-xl-9 span{
+		margin-top: 1rem;
+	}
+}
+
+/***** Tamanho para tablets na horizontal *****/
+
+@media screen and (max-width: 999px) and (min-width: 750px) {
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+	.lm-breadcrumbs h1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	.lm-02 .lm-titulo_1:after{
+		font-size: 58px;
+		top:5px;
+	}
+	/*lm-banner*/
+	.lm-banner_texto h2{
+		/*font-size: 33px;*/
+	}
+	/*lm-01*/
+	.lm-01 .lm-titulo_2{
+		font-size: 24px;
+		margin-bottom: 1rem;
+	}
+	/*lm-02*/
+	.lm-02 .lm-titulo_1{
+		font-size: 30px;
+		padding-right: 130px;
+	}
+	.lm-02 .col-xl-6 > figure{
+		position: initial;
+	}
+	/*lm-03*/
+	.lm-03 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-04*/
+	.lm-04 .owl-nav div{
+		/*top: 200px;*/
+	}
+	/*lm-05*/
+	.lm-05 .lm-titulo_2{
+		margin-bottom: 1rem;
+	}
+	/*lm-footer*/
+	.lm-footer .col-xl-12{
+		margin-bottom: 2rem;
+	}
+	.lm-footer .row div:first-child,.lm-footer .row div:last-child{
+		width: calc(50% - 20px);
+	}
+	/*SERVICOS*/
+	.lm-servicos_02 .lm-acordeon_btn span{
+		width: 25px;
+		height: 25px;
+	}
+	.lm-servicos_02 .lm-acordeon_conteudo{
+		margin-left: 0;
+	}
+	.lm-servicos_02 .lm-acordeon_btn h4{
+		font-size: 14px;
+	}
+	.lm-servicos_02 .lm-acordeon_conteudo p, .lm-servicos_02 .lm-acordeon_conteudo ul li{
+		font-size: 15px;
+	}
+	.lm-servicos_01 .lm-titulo_2{
+		margin-right: 0;
+		margin-bottom: 1rem;
+	}
+	.lm-blog_01 .col-xl-9 span{
+		margin-top: 1rem;
+	}
+	
+
+}
+
+
+/***** Monitores grandes  *****/
+@media screen and (max-width: 1100px) {
+	.row{
+		margin-right: 0;
+		margin-left: 0;
+	}
+}
+@media screen and (min-width: 1600px) {}
+/***** Monitores grandes  *****/

@@ -1,0 +1,273 @@
+.lm-empresa_01 {
+	overflow: hidden;
+}
+.lm-empresa_01 .lm-titulo_1{
+	padding-bottom: 100px;
+	color: #393B48;
+	position: relative;
+}
+.lm-empresa_01 .lm-titulo_1:before{
+	content: 'tributacao eficiente';
+	position: absolute;
+	display: block;
+	color: #fff;
+	text-shadow: 0px 0px 3px rgba(0,0,0,.2);
+	font-size: 100px;
+	left: 0px;
+	top: 40px;
+	z-index: -1;
+}
+
+.lm-empresa_01 .lm-titulo_1:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 200px;
+	height: 184px;
+	background-image: url(img/selo.png);
+	background-position: center;
+	background-size: cover;
+	right: 0px;
+	top: -20px;
+	transform: scale(0);
+	transition: all 1s ease;
+}
+
+.lm-empresa_01.aos-animate .lm-titulo_1:after{transform: scale(1);}
+
+.lm-empresa_01 .col-xl-6{position: relative;}
+
+.lm-empresa_01 .col-xl-6:first-child div{
+	padding: 40px 50px 60px 0;
+}
+
+.lm-empresa_01 .col-xl-6 h3{
+	font-size: 21px;
+	color: #565656;
+	margin-bottom: 40px;
+}
+
+.lm-empresa_01 .col-xl-6 p{
+	font-size: 20px;
+	margin-bottom: 25px;
+	text-align: justify;
+}
+
+.lm-empresa_01 .col-xl-6 a{
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.lm-empresa_01 .col-xl-6 > figure{
+	position: absolute;
+	left: 10px;
+	top: 0px;
+}
+
+.lm-empresa_01 .col-xl-6 figure img{display: block;}
+
+
+
+.lm-empresa_01 .col-xl-6 h3{
+	font-size: 35px;
+	margin-bottom: 40px;
+	color: #393B48;
+	font-weight: 900;
+	display: flex;
+	opacity: 0;
+	transform: translateX(-100%);
+	transition: all .3s ease;
+}
+
+.lm-empresa_01.aos-animate .col-xl-6 h3 {
+	transform: translateX(0%);
+	opacity: 1;
+}
+
+.lm-empresa_01 .col-xl-6 h3:before {
+	content: '';
+	display: block;
+	width: 200px;
+	height: 184px;
+	background-image: url(../img/selo.png);
+	background-position: center;
+	background-size: cover;
+}
+.lm-empresa_01 .col-xl-6 h3 span {
+	width: calc(100% - 200px);
+}
+
+.lm-empresa_01 .col-xl-6:last-child:after{
+	content: '';
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	right: -100%;
+	top: 0px;
+	background-color: #f8f8f8;
+}
+.lm-banner_pagina + .lm-empresa_01 .col-xl-6 figure{
+	z-index: 3;
+	bottom: 0px;
+	top: auto;
+}
+
+.lm-mvv{
+	margin-left: 10px;
+	padding: 65px 60px 40px;
+	background-color: #f8f8f8;
+}
+
+.lm-mvv_item{
+	display: grid;
+	grid-template-columns: 60px 1fr;
+	gap: 20px;
+	margin-bottom: 10px;
+	transform: translateX(100%);
+	opacity: 0;
+	transition: all .3s ease;
+}
+
+.lm-empresa_01.aos-animate .lm-mvv_item {
+	transform: translateX(0%);
+	opacity: 1;
+}
+
+.lm-mvv_item:nth-child(2) {
+	transition-delay: .35s;
+}
+
+.lm-mvv_item:nth-child(3) {
+	transition-delay: .7s;
+}
+.lm-mvv figure{
+	margin-right: 25px;
+	height: 60px;
+	width: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #393B48;
+	border-radius: 50%;
+	transition: all .3s ease-in-out;
+}
+.lm-mvv_item:hover figure{
+	animation: pulse-shadow 1s;
+	box-shadow: 0px 0px 0px 2em rgba(0,0,0,0);
+}
+
+@keyframes pulse-shadow {
+	0% { 
+		-webkit-box-shadow: 0 0 0 0 rgba(0,0,0,0.2); 
+		box-shadow: 0 0 0 0 rgba(0,0,0,0.2); 
+	}
+}
+.lm-mvv_item div{
+	width: 100%;
+	padding-top: 20px;
+}
+.lm-mvv_item div h2{
+	color: #393B48;
+	font-size: 18px;
+	margin-bottom: 18px;
+	text-align: left;
+	font-family: 'Roboto', sans-serif;
+}
+.lm-mvv_item div p{
+	color: #393B48;
+	text-align: left !important;
+}
+
+
+
+
+/* Mapa */
+.lm-mapa figure > div.mapa-brasil{
+	background-size: cover!important;
+}
+.lm-mapa{
+	padding: 90px;
+	background-color: #f9f9f9;
+}
+
+.lm-mapa .lm-titulo_2{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+.lm-mapa .lm-titulo_2 + p{
+	font-size: 18px;
+	margin-bottom: 40px;
+	color: #555;
+}
+
+.lm-mapa .tabs-btn{
+	padding: 30px;
+	background-color: #fff;
+	box-shadow: 0px 6px 12px -6px rgba(0,0,0,.15);
+	margin-bottom: 20px;
+	cursor: pointer;
+	transition: all .3s ease;
+	border: 2px solid #fff;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.lm-mapa .tabs-btn:hover{
+	box-shadow: 0px 7px 12px -6px rgba(0,0,0,.35);
+}
+.lm-mapa .tabs-btn.active{
+	border: 2px solid #ccc;
+	box-shadow: 0px 7px 12px -6px rgba(0,0,0,.35);
+}
+
+.lm-mapa .tabs-btn h3 {
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: 700;
+}
+
+
+.lm-mapa + .lm-04{background-color: #fff;}
+
+.lm-mapa_brasil{
+	position: relative;
+}
+.lm-mapa_brasil > figure img{
+	width: 100%;
+}
+
+.lm-navbar_conteudo > div{
+	position: absolute;
+}
+
+.lm-navbar_conteudo > div figure img{
+	display: block;
+	width: 100%;
+}
+
+[data-item="1"]{
+	top: 75px;
+	left: 2.7%;
+	width: 68.6%;
+}
+[data-item="2"]{
+	bottom: 26%;
+	right: 13.75%;
+	width: 27.318718381112985%;
+}
+[data-item="3"]{
+	bottom: 14px;
+	left: 42.8%;
+	width: 31.95%;
+}
+.nav-tabs{
+	border: none;
+}
+
+.lm-empresa_01 .row .col-xl-6:last-child{
+	background-color: #f8f8f8;
+}
