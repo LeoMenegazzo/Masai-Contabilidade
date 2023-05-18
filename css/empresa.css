@@ -74,6 +74,7 @@
 	color: #393B48;
 	font-weight: 900;
 	display: flex;
+	align-items: center;
 	opacity: 0;
 	transform: translateX(-100%);
 	transition: all .3s ease;
@@ -87,11 +88,13 @@
 .lm-empresa_01 .col-xl-6 h3:before {
 	content: '';
 	display: block;
-	width: 200px;
-	height: 184px;
+	width: 160px;
+	height: 160px;
 	background-image: url(../img/selo.png);
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	transform: rotate(-15deg);
 }
 .lm-empresa_01 .col-xl-6 h3 span {
 	width: calc(100% - 200px);
@@ -165,11 +168,11 @@
 }
 .lm-mvv_item div{
 	width: 100%;
-	padding-top: 20px;
+	padding-top: 10px;
 }
 .lm-mvv_item div h2{
 	color: #393B48;
-	font-size: 18px;
+	font-size: 25px;
 	margin-bottom: 18px;
 	text-align: left;
 	font-family: 'Roboto', sans-serif;

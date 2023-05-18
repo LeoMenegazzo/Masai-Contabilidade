@@ -95,6 +95,9 @@
 		width: 100%;
 		height: auto;
 	}
+	.wq-contatos_cloud-text{
+		display: none;
+	}
 }
 /***** Tamanho para smartphones na vertical *****/
 
@@ -128,6 +131,8 @@
 	}
 	.lm-mvv_item{
 		flex-wrap: wrap;
+		grid-template-columns: 45px 1fr;
+		gap: 10px;
 	}
 	.lm-empresa_01 .col-xl-6 > figure{
 		height: 300px;
@@ -135,6 +140,8 @@
 	}
 	.lm-banner_pagina + .lm-empresa_01 .col-xl-6 figure{
 		margin: 0 auto;
+		width: 45px;
+		height: 45px;
 	}
 	.lm-empresa_01 .col-xl-6 > figure{
 		right: 0;
@@ -157,7 +164,7 @@
 	}
 	.lm-mvv{
 		margin-left: 0;
-		padding:20px;
+		padding: 20px;
 		margin-bottom: 50px;
 	}
 	.lm-empresa_01 .col-xl-6 h3{
@@ -168,6 +175,7 @@
 	.lm-02 .lm-titulo_1:after{
 		font-size: 58px;
 		position: initial;
+		display: none;
 		top:5px;
 	}
 	/*lm-banner*/
@@ -194,6 +202,7 @@
 	.lm-02 .lm-titulo_1{
 		font-size: 30px;
 		padding-bottom: 0;
+		padding-right: 0;
 	}
 	.lm-02 .col-xl-6 > figure{
 		position: initial;
@@ -478,7 +487,6 @@
 	}
 	.lm-02 .lm-titulo_1:after{
 		font-size: 58px;
-		top:5px;
 	}
 	/*lm-banner*/
 	.lm-banner_texto h2{
@@ -547,6 +555,16 @@
 	.row{
 		margin-right: 0;
 		margin-left: 0;
+	}
+	.lm-menu_principal li a {
+		padding: 0 15px;
+	}
+	.lm-titulo_1 {
+		font-size: 45px;
+		padding-right: 145px;
+	}
+	.lm-btn {
+		padding: 9px 40px;
 	}
 }
 @media screen and (min-width: 1600px) {}

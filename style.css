@@ -51,11 +51,11 @@ p{
 .lm-btn{
 	padding: 13px 58px;
 	color: #fff;
-	background-color: #A9ADB6;
+	background-color: #393B48;
 	border-radius: 4px;
 	display: inline-block;
-	border: 2px solid #A9ADB6;
-	transition: all .3s ease; 
+	border: 2px solid #393B48;
+	transition: all .3s ease;
 }
 
 .lm-btn:hover{
@@ -335,13 +335,14 @@ p{
 
 .lm-02 .lm-titulo_1:after{
 	content: '';
-	display: block;
+	display: none;
 	position: absolute;
-	width: 200px;
-	height: 184px;
+	width: 160px;
+	height: 160px;
 	background-image: url(img/selo.png);
 	background-position: center;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	right: 0px;
 	top: -20px;
 	transform: scale(0);
@@ -500,7 +501,7 @@ p{
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-color: #A9ADB6;
+	background-color: #393B48;
 	border-radius: 50%;
 	transition: all .3s ease-in-out;
 }
@@ -632,8 +633,8 @@ p{
 
 .lm-footer{
 	padding-top: 70px;
-	background-color: #393B48;
 	color: #fff;
+	background-color: #393B48;
 }
 .lm-footer h4{
 	color: #fff;
@@ -990,7 +991,7 @@ p{
     position: fixed;
     right: -10px;
     bottom: 108px;
-    width: 320px;
+    width: 290px;
     transform: translateX(100%);
     transition: all .35s ease;
     border-radius: 8px;
@@ -1043,7 +1044,7 @@ p{
     font-size: 14px;
     font-weight: 600;
     color: #393B48;
-    word-break: break-all;
+    word-break: break-word;
 }
 
 .wq-btn-redes-sociais {
@@ -1204,4 +1205,7 @@ a:hover{
     height: auto;
     object-fit: cover;
 	z-index: -1;
+}
+.lm-copyright{
+	font-size: 16px;
 }
